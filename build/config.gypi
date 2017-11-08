@@ -9,6 +9,7 @@
   },
   "variables": {
     "asan": 0,
+    "gas_version": "2.23",
     "host_arch": "x64",
     "icu_data_file": "icudt56l.dat",
     "icu_data_in": "../../deps/icu/source/data/in/icudt56l.dat",
@@ -18,7 +19,6 @@
     "icu_path": "./deps/icu",
     "icu_small": "true",
     "icu_ver_major": "56",
-    "llvm_version": 0,
     "node_byteorder": "little",
     "node_install_npm": "true",
     "node_prefix": "/",
@@ -28,7 +28,7 @@
     "node_shared_openssl": "false",
     "node_shared_zlib": "false",
     "node_tag": "",
-    "node_use_dtrace": "true",
+    "node_use_dtrace": "false",
     "node_use_etw": "false",
     "node_use_lttng": "false",
     "node_use_openssl": "true",
@@ -37,7 +37,7 @@
     "openssl_no_asm": 0,
     "target_arch": "x64",
     "uv_parent_path": "/deps/uv/",
-    "uv_use_dtrace": "true",
+    "uv_use_dtrace": "false",
     "v8_enable_gdbjit": 0,
     "v8_enable_i18n_support": 1,
     "v8_no_strict_aliasing": 1,
@@ -45,8 +45,7 @@
     "v8_random_seed": 0,
     "v8_use_snapshot": "true",
     "want_separate_host_toolset": 0,
-    "xcode_version": "7.0",
-    "nodedir": "/Users/adit/.node-gyp/4.4.1",
+    "nodedir": "/root/.node-gyp/4.4.1",
     "standalone_static_library": 1
   }
 }
